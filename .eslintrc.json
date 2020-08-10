@@ -21,13 +21,15 @@
   "rules": {
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
+    "camelcase":"off",
+    "no-console":"off",
      "import/extensions": [
       "error",
       "ignorePackages",
       {
         "ts": "never"
       }
-    ],
+    ]
   },
   "settings": {
     "import/resolver": {
