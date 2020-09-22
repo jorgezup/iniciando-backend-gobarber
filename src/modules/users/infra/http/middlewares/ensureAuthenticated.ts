@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import { Request, Response, NextFunction } from 'express';
 import { verify } from 'jsonwebtoken';
 
