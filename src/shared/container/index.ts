@@ -1,6 +1,9 @@
 /* eslint-disable import/no-unresolved */
 import { container } from 'tsyringe';
 
+import '@modules/users/providers';
+import './providers';
+
 import AppointmentsRepository from '@modules/appointments/infra/typeorm/repositories/AppointmentsRepository';
 import IAppointmentsRepository from '@modules/appointments/repositories/IAppointmentsRepository';
 
