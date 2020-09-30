@@ -6,7 +6,7 @@ import authConfig from '@config/auth';
 
 import AppError from '@shared/errors/AppError';
 
-interface TokenPayLoad {
+interface ITokenPayLoad {
   iat: number;
   exp: number;
   sub: string;
