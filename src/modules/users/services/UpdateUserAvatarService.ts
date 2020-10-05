@@ -40,8 +40,6 @@ class UpdateUserAvatarService {
 
     await this.usersRepository.save(user);
 
-    console.log(user);
-
     return user;
   }
 }
